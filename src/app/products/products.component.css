@@ -1,0 +1,21 @@
+li{
+    background-color: #d81b60;
+    border-radius: 5px;
+    
+}
+
+li a{
+    color:white;
+}
+
+.active{
+    font-weight: bold;
+    
+   
+}
+
+.active.nav-link{
+    background-color:white;
+    color:#d81b60;
+    box-shadow: 3px 3px 3px #d81b60;
+}
