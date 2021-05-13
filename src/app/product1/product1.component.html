@@ -1,0 +1,16 @@
+<!--
+<div class="card shadow m-3 h-100" >
+    <img height=220px src="{{produ.image}}" alt="Card image cap">
+      <h5>{{produ.name}}</h5>
+      <p>{{produ.price}}</p>
+      <a class="btn btn-primary" (click)="addToFavourites(produ.title)"><i class="fas fa-plus-square mx-2"></i>Add to favourites</a>
+  </div>
+-->
+  <div class="card  mt-4 shadow mb-5" style="width: 80%;border:1px solid black;">
+    <img src={{produ.image}} class="card-img-top" style="height: 280px;" alt="...">
+    <div class="text-center pb-1 pt-2 m-1">
+      <h5 class="a1" style="color: black;">{{produ.name}}<br></h5>
+      <p class="a1" style="color: black;">{{produ.price}}<br></p>
+      <a  class="a1 btn btn-primary" (click)="addToFavourites(produ.title)" style="color:whitesmoke"><i class="fas fa-plus-square mx-2"></i>Buy Now></a>
+    </div>
+  </div>

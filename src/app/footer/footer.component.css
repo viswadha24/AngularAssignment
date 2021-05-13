@@ -1,0 +1,14 @@
+.txt:hover{
+    text-decoration:underline;
+}
+a,b,c{
+    text-decoration: none;
+}
+.a1:hover{
+    text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    bottom:0;
+    top:1000;
+}

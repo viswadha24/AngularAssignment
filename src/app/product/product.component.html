@@ -1,0 +1,9 @@
+
+<div class="card shadow m-3" style="width: 18rem;">
+    <img height=200px src="{{produ.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{produ.title}}</h5>
+      <p class="card-text">{{produ.body}}</p>
+      <a class="btn btn-primary" (click)="addToFavourites(produ.title)"><i class="fas fa-plus-square mx-2"></i>Add to favourites</a>
+    </div>
+  </div>

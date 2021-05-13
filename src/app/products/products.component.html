@@ -1,0 +1,36 @@
+
+
+<div>
+    <div class="px-5 text-center mx-auto my-auto">
+      <!--
+    <button type="button" class="btn btn-warning mx-auto mb-2 mb-lg-0 d-block">
+      Favouite Flowers count <span class="badge bg-secondary"> {{data}}</span>
+    </button> 
+    --> 
+    </div>
+  </div>
+  <div class="container">
+    <!--
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 "> 
+      <div class="col" *ngFor="let p of products">
+        <app-product [produ]=p (MyEvent)="getthedetails($event)"></app-product>
+       </div>
+    </div> 
+    -->
+     
+    <ul class="nav nav-pills mx-auto" style="justify-content: space-evenly;">
+      <li class="nav-item">
+        <a class="nav-link active m-1" routerLink="flowers">Flowers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active m-1" routerLink="bouques">Bouquets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active m-1" routerLink="flower-vase">FlowerVase</a>
+      </li>
+    </ul> 
+
+  </div>
+  <div class="container">
+    <router-outlet></router-outlet>
+    </div>

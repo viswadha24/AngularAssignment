@@ -1,0 +1,21 @@
+
+/*
+.hk{
+    background-image: url("https://mlpupix9f17o.i.optimole.com/wsEp57E-CrLw3Obu/w:1000/h:667/q:90/https://www.homestratosphere.com/wp-content/uploads/2021/02/flower-colors-Feb242021-1-min.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode:overlay;
+    background-color: rgb(0, 0,0,0.35);
+  }
+  .hk::before{
+      background-color: rgba(0,0,0,0.50);
+  }
+
+  */
+  a{
+    text-decoration: none;
+}
+.a1:hover{
+    text-decoration: underline;
+}
