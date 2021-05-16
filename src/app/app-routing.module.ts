@@ -1,7 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BouquesComponent } from './bouques/bouques.component';
+import {Employees1Component} from './employees1/employees1.component';
 import { ContactusComponent } from './contactus/contactus.component';
+import { EmployeesComponent } from './employees/employees.component';
 import { FlowersComponent } from './flowers/flowers.component';
 import { FlowervaseComponent } from './flowervase/flowervase.component';
 import { HomeComponent } from './home/home.component';
@@ -11,9 +13,11 @@ import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   { path:'home',component:HomeComponent},
+  {path:'emp-info',component:EmployeesComponent},
   { path:'register',component:RegisterComponent},
   { path:'login',component:LoginComponent},
   { path:'contactus',component:ContactusComponent},
+  {path:'emp1-info',component:Employees1Component},
   { path:'products',component:ProductsComponent,children:[
     {path:'flowers',component:FlowersComponent},
     {path:'bouques',component:BouquesComponent},
