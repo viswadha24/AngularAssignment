@@ -1,0 +1,21 @@
+<h2 class="text-warning text-center " style="text-shadow: 1px 1px 3px black;">LIST OF USERS</h2>
+ 
+<div class="background">
+    <table class="table text-dark text-center">
+        <thead>
+            <tr>
+    
+                <th>ID</th>
+               
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr *ngFor="let postObj of users" class="mx-auto" style="justify-content: space-evenly;">
+                <td>
+                   <button class="btn btn-sm btn-warning"  (click)="onselectId(postObj.id)"> {{postObj.id}}  </button> <p>{{postObj.email}}</p> </td>
+               
+            </tr>
+        </tbody>
+    </table>
+    </div>

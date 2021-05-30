@@ -19,6 +19,9 @@ import { FlowersComponent } from './flowers/flowers.component';
 import { Product1Component } from './product1/product1.component';
 import { EmployeesComponent } from './employees/employees.component';
 import { Employees1Component } from './employees1/employees1.component';
+import { UsersComponent } from './users/users.component';
+import { UserDetailsComponentComponent } from './user-details-component/user-details-component.component';
+import { UserDetailsComponent } from './user-details/user-details.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { Employees1Component } from './employees1/employees1.component';
     FlowersComponent,
     Product1Component,
     EmployeesComponent,
-    Employees1Component
+    Employees1Component,
+    UsersComponent,
+    UserDetailsComponentComponent,
+    UserDetailsComponent
   ],
   imports: [
     BrowserModule,

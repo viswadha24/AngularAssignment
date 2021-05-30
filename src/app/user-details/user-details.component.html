@@ -1,0 +1,30 @@
+
+<div class=" p-2">
+<div class="card bg-light m-5 p-2 w-50 mx-auto shadow" >
+    
+    <div class="card-body">
+          <div class="row pr-3">
+            <div class="col-sm-8">
+                     
+                <h4 class="" style="color:rgb(247, 100, 242);font-size: 1.7em;">{{userObj.name}}</h4>
+                <h5 class="text-secondary" style="font-size: 1.2em;">Id : <strong>{{userObj.id}}</strong></h5>
+                <h5 class="text-secondary" style="font-size: 1.1em;"> phone : <i class="fas fa-phone-alt"></i> <strong font-size="1em"> {{userObj.phone}}</strong></h5>
+                <h5 class="text-secondary" style="font-size: 1.1em;"> email : <i class="fas fa-envelope"></i> <strong> {{userObj.email}}</strong></h5>
+
+                <h5 class="text-secondary" style="font-size: 1.1em;"> profession : <strong> {{userObj.profession}}</strong></h5>
+                <h5 class="text-secondary" style="font-size: 1.1em;position: relative;"> Address : <strong></strong></h5>
+                <div style="position: relative;left:30px">
+                    <h4 class="text-secondary" style="font-size: 1.1em;">city : <strong> {{userObj.address["city"]}}</strong></h4>
+                    <h4 class="text-secondary" style="font-size: 1.1em;">street : <strong> {{userObj.address["street"]}}</strong></h4>
+                    <h4 class="text-secondary" style="font-size: 1.1em;">suite : <strong> {{userObj.address["suite"]}}</strong></h4>
+                </div>
+
+                </div>
+                <div class="col-sm-4 p-2 px-3" >
+                    <img class="w-sm-5"  src={{userObj.profile}} style="border:1px solid black;" width=100% alt="">
+                </div>
+          </div>
+    </div>
+
+</div>
+</div>
